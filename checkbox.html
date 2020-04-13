@@ -33,6 +33,17 @@
         <br>
         
     </form>
-    <script type="text/javascript" src="checkbox.js"></script>
+    <script type="text/javascript" src="checkbox.js">
+    var q=[] ;
+function checknum(obj){
+    if(obj.checked){
+        q.push(obj);
+        if(q.length>2){
+            let tmp=q.shift();
+            tmp.checked=false;
+        }
+    }
+}
+    </script>
 </body>
 </html>
