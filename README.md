@@ -1,5 +1,5 @@
 ## Checkbox
 ### Javascript practice
-#### Built with:
+### Built with:
 - [x] HTML
 - [x] JavaScript
